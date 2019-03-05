@@ -1,4 +1,5 @@
 
+/* HOME PAGE CAROUSEL SCRIPT */
 let i=2;
 
 $(document).ready(function(){
@@ -71,10 +72,11 @@ $(document).ready(function(){
     }, 5000);
 
 });
+/*====================================================*/
 
 /* SHOW PASSWORD SCRIPT */
 
-(function ($) {
+$(document).ready(function ($) {
     $.toggleShowPassword = function (options) {
         var settings = $.extend({
             field: "#password",
@@ -92,4 +94,4 @@ $(document).ready(function(){
             }
         })
     };
-})
+});
